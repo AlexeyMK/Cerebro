@@ -12,9 +12,10 @@ Cerebro has mostly been developed by [me](https://github.com/ZachGoldberg) and w
 ## Comparison to other tools
 
 **[Puppet](http://puppetlabs.com/)** and **[Chef](http://www.opscode.com/chef/)**
-Puppet's **[self description](https://puppetlabs.com/puppet/puppet-enterprise/)**_Puppet Enterprise is IT automation software that gives system administrators the power to easily **automate repetitive tasks, quickly deploy critical applications, and proactively manage infrastructure**, on-premises or in the cloud._  
 
-**Chef**'s [self description](http://www.opscode.com/chef/#which-chef\): _Chef is an automation platform that transforms infrastructure into code_ (find me a better description... ).  Anyway, that means something along the lines of writing ruby to describe your infrastructure, and then it gives you tools to deploy that infrastructure.  If a machine that you've deployed goes down, an admin will have to get a page (from another system, not Chef, maybe a Nagios or a NewRelic) and spinup a new one manually.
+Puppet's [self description](https://puppetlabs.com/puppet/puppet-enterprise/):  _Puppet Enterprise is IT automation software that gives system administrators the power to easily **automate repetitive tasks, quickly deploy critical applications, and proactively manage infrastructure**, on-premises or in the cloud._  
+
+Chef's [self description](http://www.opscode.com/chef/#which-chef): _Chef is an automation platform that transforms infrastructure into code_ (find me a better description... ).  Anyway, that means something along the lines of writing ruby to describe your infrastructure, and then it gives you tools to deploy that infrastructure.  If a machine that you've deployed goes down, an admin will have to get a page (from another system, not Chef, maybe a Nagios or a NewRelic) and spinup a new one manually.
 
 Cerebro's focus is not on automating 'repetitive' tasks.  Cerebro focuses on automating the random problematic tasks that wake you up in the morning as well as one time deployment tasks.  Processes that have bloated too much, instances that fall over etc.  
 
